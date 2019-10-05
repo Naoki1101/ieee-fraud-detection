@@ -1,0 +1,180 @@
+# ===============
+# Features
+# ===============
+categorical_features: [
+  'transaction_dt_month',
+  # 'card1_selected',
+  # 'card2_selected', 'card5_selected',
+  # 'addr1_selected',
+  # 'P_emaildomain',
+  # 'R_emaildomain',
+  # 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8',
+  # 'id_30', 'id_31'
+]
+
+features: [
+  'transaction_dt_bin_4368', 'transaction_dt_bin_182', 'transaction_dt_bin_91', 'elapsed_from_brawser_release', 'TransactionAmt__card5', 'transaction_amt_div_card1_mean', 'transaction_amt_div_card5_mean', 'transaction_amt_div_card1_median', 'TransactionAmt', 'transaction_amt_div_card5_median', 
+  'transaction_amt_div_addr1_mean', 'id_02', 'addr1__card1', 'transaction_amt_1', 'transaction_dt_hour', 'DeviceInfo', 'id_20', 'mean_D9_each_card1', 'median_D8_each_card1', 'nmf_m_1', 
+  'transaction_amt_10', 'mean_D8_each_card1', 'max_TransactionAmt_each_card1_P_emaildomain', 'mean_D7_each_card1', 'mean_D5_each_card1', 'card1', 'mean_D6_each_card1', 'transaction_amt_div_addr2_mean', 'mean_D3_each_card1', 'median_D2_each_card1', 
+  'nmf_c_0', 'max_D8_each_card1', 'mean_D14_each_card1', 'transaction_amt_div_mean_amt_each_month_1', 'dist1', 'max_D7_each_card1', 'mean_TransactionAmt_each_card1_P_emaildomain', 'id_19', 'card1_selected', 'id_31', 
+  'mean_dist1_each_card1', 'mean_D13_each_card1', 'max_TransactionAmt_each_card2_P_emaildomain', 'P_emaildomain__C2', 'transaction_dt_month', 'mean_D12_each_card1', 'min_TransactionAmt_each_card1_P_emaildomain', 'sum_TransactionAmt_each_card1_P_emaildomain', 'mean_D2_each_card1', 'max_D6_each_card1', 
+  'card1_card5_std_pca_0', 'nmf_m_0', 'mean_D13_each_card2', 'min_TransactionAmt_each_card2_P_emaildomain', 'mean_D9_each_card2', 'card1_card5_std_pca_1', 'pca_c_0', 'transaction_dt_weekday', 'D15', 'transaction_amt_div_mean_amt_each_month_0', 
+  'mean_D14_each_card2', 'max_D3_each_card1', 'dist2', 'mean_D9_each_addr1', 'nunique_TransactionAmt_each_card1_P_emaildomain', 'max_D5_each_card1', 'mean_D11_each_card1', 'mean_D3_each_addr1', 'mean_D12_each_card2', 'card2__dist1', 
+  'card5__P_emaildomain', 'max_D14_each_card1', 'sum_TransactionAmt_each_card2_P_emaildomain', 'median_D8_each_addr1', 'mean_D7_each_addr1', 'max_D13_each_card1', 'nunique_TransactionAmt_each_card2_P_emaildomain', 'mean_D3_each_card2', 'mean_D8_each_addr1', 'max_dist1_each_card1', 
+  'elapsed_from_os_release', 'mean_TransactionAmt_each_card2_P_emaildomain', 'card2', 'max_D11_each_card1', 'mean_D4_each_card1', 'id_05', 'pca_c_1', 'mean_D5_each_addr1', 'D4_div_D15', 'p_emaildomain_top', 
+  'transaction_mean_amt_each_month_nmf_1', 'median_TransactionAmt_each_card1_P_emaildomain', 'id_13', 'transaction_dt_weekday_sin', 'C1_div_C14', 'transaction_dt_last', 'mean_D10_each_card1', 'mean_D14_each_addr1', 'max_TransactionAmt_each_card1_R_emaildomain', 'card1_card5_count_pca_1', 
+  'C1_div_C2', 'mean_TransactionAmt_each_card1_R_emaildomain', 'mean_D13_each_addr1', 'median_D11_each_card1', 'mean_dist1_each_addr1', 'max_TransactionAmt_each_addr1', 'card2_selected', 'max_D2_each_card1', 'id_06', 'card1_card5_sum_pca_1', 
+  'min_TransactionAmt_each_card5_P_emaildomain', 'mean_TransactionAmt_each_addr1', 'C6_div_C13', 'mean_D6_each_addr1', 'max_D12_each_card1', 'nmf_v53_v74_1', 'max_dist1_each_addr1', 'D10_div_D15', 'min_TransactionAmt_each_card1_R_emaildomain', 'mean_D15_each_card1', 
+  'C2_div_C11', 'C2_div_C14', 'mean_D1_each_card1', 'C1_div_C13', 'P_emaildomain', 'C1_div_C11', 'C11_div_C14', 'C1_div_C6', 'nmf_v75_v94_1', 'max_D3_each_addr1', 
+  'median_D3_each_card1', 'max_D15_each_card1', 'max_D14_each_addr1', 'D8', 'max_D8_each_addr1', 'mean_dist1_each_card2', 'card5__dist1', 'max_D13_each_addr1', 'C2_div_C13', 'max_TransactionAmt_each_card5_P_emaildomain', 
+  'max_D4_each_card1', 'max_D3_each_card2', 'median_TransactionAmt_each_card1_R_emaildomain', 'mean_D2_each_addr1', 'median_dist1_each_card1', 'mean_D11_each_addr1', 'median_D5_each_card1', 'card1_card5_count_pca_0', 'max_D10_each_card1', 'median_D15_each_card1', 
+  'C9_div_C13', 'transaction_mean_amt_each_month_nmf_0', 'C2_div_C6', 'mean_D4_each_addr1', 'mean_D10_each_addr1', 'max_D7_each_addr1', 'mean_TransactionAmt_each_card5_P_emaildomain', 'median_TransactionAmt_each_card2_P_emaildomain', 'C1_div_C5', 'id_01', 
+  'nmf_d_1', 'sum_dist1_each_addr1', 'median_D9_each_card1', 'mean_D1_each_addr1', 'transction_null_count', 'D1_div_D15', 'C6_div_C11', 'C6_div_C14', 'C1_div_C9', 'median_D2_each_addr1', 
+  'nmf_d_0', 'D2', 'max_D10_each_addr1', 'nmf_c_1', 'mean_D15_each_addr1', 'C11_div_C13', 'nmf_v12_v34_4', 'median_dist1_each_addr1', 'median_D7_each_card1', 'id_31_top', 
+  'addr1_ce', 'max_TransactionAmt_each_card2_R_emaildomain', 'C9_div_C14', 'median_D11_each_addr1', 'max_D4_each_addr1', 'max_D6_each_addr1', 'D1_div_D10', 'card1_card5_sum_pca_0', 'max_D11_each_addr1', 'sum_TransactionAmt_each_card1_R_emaildomain', 
+  'nmf_v53_v74_4', 'max_D5_each_addr1', 'transaction_amt_100', 'max_TransactionAmt_each_card2', 'sum_v75_v94', 'mean_TransactionAmt_each_card2_R_emaildomain', 'max_D15_each_addr1', 'nmf_v75_v94_4', 'nmf_v75_v94_2', 'nmf_v35_v52_1', 
+  'nunique_TransactionAmt_each_card5_P_emaildomain', 'D4', 'addr1_selected', 'max_dist1_each_card2', 'C9_div_C11', 'id_33', 'nmf_v75_v94_3', 'M4', 'M5', 'D11_div_D15', 
+  'D2_div_D15', 'nunique_TransactionAmt_each_card2_R_emaildomain', 'sum_TransactionAmt_each_card5_P_emaildomain', 'M6', 'D4_div_D10', 'nunique_TransactionAmt_each_card1_R_emaildomain', 'sum_c', 'nmf_v53_v74_3', 'D8_div_D14', 
+  'C6_div_C9', 'C2_div_C9', 'C5_div_C13', 'max_TransactionAmt_each_card2_card5', 'mean_TransactionAmt_each_card2_card5', 'D8_div_D13', 'mean_TransactionAmt_each_card2', 'D1', 'min_D8_each_card1', 'sum_v53_v74', 
+  'D4_div_D11', 'D2_div_D10', 'nmf_v12_v34_1', 'nmf_v35_v52_3', 'D2_div_D4', 'sum_TransactionAmt_each_card2_R_emaildomain', 'min_TransactionAmt_each_card2_R_emaildomain', 'D14_div_D15', 'sum_TransactionAmt_each_card2_card5', 'nunique_TransactionAmt_each_card2_card5', 
+  'mean_TransactionAmt_each_P_emaildomain_R_emaildomain', 'C5_div_C6', 'D9_div_D15', 'mean_TransactionAmt_each_card1', 'C2_div_C5', 'min_TransactionAmt_each_card2_card5', 'median_TransactionAmt_each_addr1', 'C8_div_C10', 'max_TransactionAmt_each_card1', 
+  'D8_div_D10', 'D1_div_D4', 'min_TransactionAmt_each_card1', 'transaction_count_each_month_nmf_1', 'D8_div_D15', 'D3_div_D11', 'C5_div_C11', 'nmf_v53_v74_0', 'C13_div_C14', 'D8_div_D12', 
+  'D5_div_D11', 'max_TransactionAmt_each_card1_card2', 'mean_TransactionAmt_each_card1_card2', 'nmf_v12_v34_3', 'sum_D3_each_card2', 'sum_v35_v52', 'D1_div_D11', 'median_TransactionAmt_each_card1', 'min_TransactionAmt_each_card2', 'V313', 
+  'nunique_TransactionAmt_each_card2', 'D2_div_D11', 'sum_TransactionAmt_each_card2', 'C1_div_C10', 'min_TransactionAmt_each_card1_card2', 'sum_v167_v278', 'transaction_std_amt_each_month', 'median_TransactionAmt_each_card5_P_emaildomain', 'D2_div_D14', 'C12_div_C13', 
+  'median_TransactionAmt_each_P_emaildomain_R_emaildomain', 'C5_div_C14', 'D2_div_D9', 'D14', 'min_TransactionAmt_each_card3_P_emaildomain', 'D10', 'D8_div_D9', 'D3_div_D5', 'median_dist1_each_card2', 'D10_div_D11', 
+  'C2_div_C12', 'nmf_v53_v74_2', 'mean_TransactionAmt_each_card1_card5', 'D5_div_D15', 'C1_div_C12', 'nmf_v167_v278_1', 'C5_div_C9', 'median_D3_each_card2', 'median_TransactionAmt_each_card1_card2', 'median_TransactionAmt_each_card2_card5', 
+  'sum_v12_v34', 'min_TransactionAmt_each_card5_R_emaildomain', 'nmf_v75_v94_0', 'sum_v281_v315', 'median_TransactionAmt_each_card2', 'D3_div_D15', 'transaction_sum_amt_each_month_nmf_1', 'sum_dist1_each_card1', 'D10_div_D14', 'sum_D15_each_card1', 
+  'D13_div_D15', 'median_TransactionAmt_each_card2_R_emaildomain', 'D13_div_D14', 'R_emaildomain', 'D11', 'nmf_v35_v52_4', 'nunique_TransactionAmt_each_card5_R_emaildomain', 'C10_div_C13', 'nunique_TransactionAmt_each_P_emaildomain_R_emaildomain', 
+  'C1_div_C8', 'D5_div_D8', 'id_30', 'C8_div_C14', 'D11_div_D14', 'C10_div_C14', 'D1_div_D2', 'r_emaildomain_top', 'D3_div_D8', 'D3_div_D4', 
+  'D5_div_D10', 'D9_div_D14', 'id_09', 'D3_div_D10', 'D8_div_D11', 'id_18', 'D4_div_D9', 
+  'C8_div_C13', 'C12_div_C14', 'id_14', 'V315', 'D1_div_D8', 'C6_div_C12', 
+  'V87', 'min_TransactionAmt_each_P_emaildomain_R_emaildomain', 'D2_div_D8', 'median_TransactionAmt_each_card1_card5', 'nmf_v35_v52_2', 'C2_div_C8', 'V267', 'sum_TransactionAmt_each_card5_R_emaildomain', 'D5_div_D14', 'D6_div_D15', 
+  'mean_TransactionAmt_each_card5_R_emaildomain', 'nmf_v12_v34_2', 'mean_TransactionAmt_each_card3_P_emaildomain', 'C2_div_C10', 'transaction_count_each_month_nmf_0', 'min_TransactionAmt_each_card2_card3', 'nmf_v279_v320_2', 'max_TransactionAmt_each_card3_P_emaildomain', 
+  'D1_div_D5', 'C2_div_C7', 'D2_div_D5', 'C10_div_C11', 'sum_TransactionAmt_each_P_emaildomain_R_emaildomain', 'nunique_TransactionAmt_each_card2_card3', 
+  'D3', 'V307', 'D9_div_D10', 'C4_div_C14', 'sum_v279_v320', 'nmf_v167_v278_3', 
+  'D6_div_D10', 'C8_div_C11', 'D4_div_D8', 'D1_div_D3', 'card5', 'D4_div_D14', 
+  'D9', 'D3_div_D9', 'D2_div_D3', 'nunique_TransactionAmt_each_card3_P_emaildomain', 'V266', 'V310', 'D1_div_D9', 
+  'D3_div_D14', 'D9_div_D12', 'C4_div_C8', 'C4_div_C13', 
+  'D5_div_D9', 'C9_div_C12', 'D5', 'C4_div_C10', 'V274', 
+  'C2_div_C4', 'nmf_v279_v320_1', 
+  'C6_div_C8', 'C6_div_C10', 
+  'V264', 'C1_div_C4', 'C1', 'nmf_v279_v320_4', 'C1_div_C3', 'V165', 
+  'C7_div_C11', 'V317', 
+  'nmf_v95_v137_3', 'V308',
+  'nmf_v279_v320_0',
+  'C8_div_C9', 
+
+  # 'V154', 'V156', 'V257', 'V258',
+
+  'mean_id_02_each_card1', 'id_02_div_mean_each_card1', 'id_02_div_transaction_amt',
+  'mean_id_20_each_card1', 'id_20_div_mean_each_card1', 'id_20_div_transaction_amt',
+  'nunique_DeviceInfo_each_card1', 'sum_V154_V156_V257_V258',
+
+  'TransactionAmt__card5__dist2', 'TransactionAmt__card5__addr1', 'ca1_ca5_amt_p_r_ad1_ad2_di1_di2',
+  'ca1_ca5_amt_c2_d9', 'diff_transaction_dt_from_min_ca1_ca5_amt_dt', 'transaction_num_3days_each_card1_card5_amt', 'transaction_num_5days_each_card1_card5_amt',
+  'transaction_num_36hours_each_card1_card5_amt', 'transaction_num_12hours_each_card1_card5_amt',
+  'elapsed_from_last_card1_transaction', 'elapsed_from_last_card1_card5_transaction', 'elapsed_from_last_card1_card5_amt_transaction', 'elapsed_from_last_card1_card5_amt_c2_transaction',
+
+  # 'card1_card5_te_folds4', 'card1_card5_amt_te_folds4'
+  'card1__card5__V283', 'transaction_amt_div_v283',
+  'V283_div_mean_each_card1', 'V283_div_C2', 'transaction_amt_div_v283_mean', 
+
+  'v283_div_mean_each_date',
+
+  'card1__V283',
+
+  'transaction_dt_bin_52416', 'card1_regis_day'
+]
+
+
+# ===============
+# Parameters(model)
+# ===============
+lgbm_params:
+  objective: binary
+  boosting_type: gbdt
+  metric: auc
+  n_jobs: -1
+  learning_rate: 0.01
+  num_leaves: 256
+  max_depth: 9
+  tree_learner: serial
+  colsample_bytree: 0.7
+  subsample_freq: 1
+  subsample: 0.7
+  max_bin: 255
+  verbose: -1
+  random_state: &vars 2019
+
+lgbm_params2:
+  objective: binary
+  boosting_type: gbdt
+  metric: auc
+  n_jobs: -1
+  learning_rate: 0.1
+  num_leaves: 256
+  max_depth: 7
+  tree_learner: serial
+  colsample_bytree: 0.7
+  subsample_freq: 1
+  subsample: 0.7
+  max_bin: 255
+  verbose: -1
+  random_state: *vars
+
+# lgbm_params2:
+#   num_leaves: 36
+#   min_data_in_leaf: 918
+#   objective: regression
+#   max_depth: 10
+#   max_bin: 256
+#   learning_rate: 0.01
+#   min_child_samples: 60
+#   boosting: gbdt
+#   feature_fraction: 0.7803218224908548
+#   bagging_freq: 1
+#   bagging_fraction: 0.7052396753793303
+#   bagging_seed: 11
+#   metric: logloss
+#   lambda_l1: 0.06699055283438832
+#   verbosity: -1
+#   random_state: *vars
+
+cb_params:
+  loss_function: Logloss
+  eval_metric: AUC
+  learning_rate: 0.1
+  iterations: 10000
+  random_seed: *vars
+  random_strength: 99
+  od_type: Iter
+  od_wait: 16
+  depth: 8
+  bagging_temperature: 3
+  early_stopping_rounds: 200 
+
+
+# ===============
+# Parameters(else)
+# ===============
+drop_data:
+  outliers: [
+    4463,  11872,  11884,  16143,  16182,  23959,  27175,  28188, 29483,  31797,  37985,  38023,  38680,  38697,  51068,  61205,
+    65708,  71084,  80581,  80598,  82102,  82112,  82118,  82123, 82721,  95502,  95547,  97599,  97626,  99848, 100306, 105745,
+    105855, 112824, 113124, 119199, 119211, 119622, 119638, 120942, 133636, 137368, 146600, 153127, 158612, 162184, 166046, 166063,
+    166270, 166284, 173771, 177220, 181763, 185623, 192913, 192924, 197067, 200256, 200270, 200393, 200405, 200994, 201016, 201982,
+    208174, 213533, 213540, 222367, 222383, 222386, 226524, 231251, 238220, 242259, 250252, 254888, 257279, 266698, 269954, 269967,
+    275271, 277774, 281404, 285629, 285648, 291603, 295349, 299261, 313603, 318176, 321690
+  ]
+seed: *vars
+loss: auc
+target_name: isFraud
+ID_name: TransactionID
+compe_name: ieee-fraud-detection
+start_date: 2017-11-30
+
+line_token: XXXXXXXXXXXXXXXXXXXXXX
+dropbox_token: XXXXXXXXXXXXXXXXXXXXXX
+notion_params:
+  token_v2: XXXXXXXXXXXXXXXXXXXXXX
+  url: XXXXXXXXXXXXXXXXXXXXXX

@@ -1,0 +1,266 @@
+# https://www.kaggle.com/c/ieee-fraud-detection/discussion/106982#latest-616604
+# https://robservatory.com/a-useless-analysis-of-os-x-release-dates/
+# https://en.wikipedia.org/wiki/IOS_version_history#iOS_12
+
+os:
+  Android 4.4.2: 2013-12-09
+  Android 5.0: 2014-11-12
+  Android 5.0.2: 2014-12-19
+  Android 5.1.1: 2015-03-09
+  Android 6.0: 2015-10-05
+  Android 6.0.1: 2015-12-07
+  Android 7.0: 2016-08-22
+  Android 7.1.1: 2016-12-05
+  Android 7.1.2: 2017-04-04
+  Android 8.0.0: 2017-08-21
+  Android 8.1.0: 2017-12-05
+  iOS 9.3.5: 2016-08-25
+  iOS 10.0.2: 2016-09-23
+  iOS 10.1.1: 2016-10-31
+  iOS 10.2.0: 2016-12-12
+  iOS 10.2.1: 2017-01-23
+  iOS 10.3.1: 2017-04-03
+  iOS 10.3.2: 2017-05-15
+  iOS 10.3.3: 2017-07-19
+  iOS 11.0.0: 2017-09-19
+  iOS 11.0.1: 2017-09-26
+  iOS 11.0.2: 2017-10-03
+  iOS 11.0.3: 2017-10-11
+  iOS 11.1.0: 2017-10-31
+  iOS 11.1.1: 2017-11-09
+  iOS 11.1.2: 2017-11-16
+  iOS 11.2.0: 2017-12-02
+  iOS 11.2.1: 2017-12-13
+  iOS 11.2.2: 2018-01-08
+  iOS 11.2.5: 2018-01-23
+  iOS 11.2.6: 2018-02-19
+  iOS 11.3.0: 2018-05-29
+  iOS 11.3.1: 2018-04-24
+  iOS 11.4.0: 2018-05-29
+  iOS 11.4.1: 2018-07-09
+  iOS 12.0.0: 2018-09-17
+  iOS 12.0.1: 2018-10-08
+  iOS 12.1.0: 2018-10-30
+  iOS 12.1.1: 2018-12-05
+  iOS 12.1.2: 2018-12-20
+  Mac OS X 10.6: 2019-08-28
+  Mac OS X 10_6_8: 2011-06-23
+  Mac OS X 10_7_5: 2012-09-19
+  Mac OS X 10_8_5: 2013-09-12
+  Mac OS X 10.9: 2013-10-22
+  Mac OS X 10_9_5: 2014-09-17
+  Mac OS X 10.10: 2014-10-16
+  Mac OS X 10_10_5: 2015-08-13
+  Mac OS X 10.11: 2015-09-30
+  Mac OS X 10_11_3: 2016-01-19
+  Mac OS X 10_11_4: 2016-03-20
+  Mac OS X 10_11_5: 2016-03-20
+  Mac OS X 10_11_6: 2016-07-18
+  Mac OS X 10_12: 2016-09-20
+  Mac OS X 10.12: 2016-09-20
+  Mac OS X 10_12_1: 2016-10-24
+  Mac OS X 10_12_2: 2016-12-13
+  Mac OS X 10_12_3: 2017-01-23
+  Mac OS X 10_12_4: 2017-03-27
+  Mac OS X 10_12_5: 2017-05-15
+  Mac OS X 10_12_6: 2017-07-19
+  Mac OS X 10.13: 2017-09-25
+  Mac OS X 10_13_1: 2017-10-31
+  Mac OS X 10_13_2: 2017-12-06
+  Mac OS X 10_13_3: 2018-01-23
+  Mac OS X 10_13_4: 2017-03-29
+  Mac OS X 10_13_5: 2018-06-01
+  Mac OS X 10_13_6: 2018-07-09
+  Mac OS X 10.14: 2018-09-24
+  Mac OS X 10_14_0: 2018-09-24
+  Mac OS X 10_14: 2018-09-24
+  Mac OS X 10_14_1: 2018-10-30
+  Mac OS X 10_14_2: 2018-12-05
+  Windows XP: 2001-10-25
+  Windows Vista: 2007-01-30
+  Windows 7: 2009-10-22
+  Windows 8: 2012-10-26
+  Windows 8.1: 2013-10-18
+  Windows 10: 2015-07-29
+  Android: 
+  Linux: 
+  Mac: 
+  iOS: 
+  func: 
+  other: 
+  Windows: 
+  Android 9: 
+
+brawser:
+  chrome 39.0 for android: 2014-11-12
+  chrome 43.0 for android: 2015-05-27
+  chrome 46.0 for android: 2015-10-14
+  chrome 49.0: 2016-03-02
+  chrome 49.0 for android: 2016-03-09
+  chrome 50.0 for android: 2016-04-26
+  chrome 51.0: 2016-05-25
+  chrome 51.0 for android: 2016-06-01
+  chrome 52.0 for android: 2016-07-27
+  chrome 53.0 for android: 2016-09-07
+  chrome 54.0 for android: 2016-10-19
+  chrome 55.0: 2016-12-01
+  chrome 55.0 for android: 2016-12-06
+  chrome 56.0: 2017-01-25
+  chrome 56.0 for android: 2017-02-01
+  chrome 57.0: 2017-03-09
+  chrome 57.0 for android: 2017-03-16
+  chrome 58.0: 2017-04-19
+  chrome 58.0 for android: 2017-04-20
+  chrome 59.0: 2017-06-05
+  chrome 59.0 for android: 2017-06-06
+  chrome 60.0: 2017-07-25
+  chrome 60.0 for android: 2017-07-31
+  chrome 61.0: 2017-09-05
+  chrome 61.0 for android: 2017-09-05
+  chrome 62.0: 2017-10-17
+  chrome 62.0 for android: 2017-10-19
+  chrome 62.0 for ios: 2017-10-18
+  chrome 63.0: 2017-12-06
+  chrome 63.0 for android: 2017-12-05
+  chrome 63.0 for ios: 2017-12-05
+  chrome 64.0: 2018-01-24
+  chrome 64.0 for android: 2018-01-23
+  chrome 64.0 for ios: 2018-01-24
+  chrome 65.0: 2018-03-06
+  chrome 65.0 for android: 2018-03-06
+  chrome 65.0 for ios: 2018-03-06
+  chrome 66.0: 2018-04-17
+  chrome 66.0 for android: 2018-04-17
+  chrome 66.0 for ios: 2018-04-17
+  chrome 67.0: 2018-05-29
+  chrome 67.0 for android: 2018-05-31
+  chrome 67.0 for ios: 2018-05-29
+  chrome 68.0: 2018-07-24
+  chrome 68.0 for android: 2018-07-24
+  chrome 68.0 for ios: 2018-07-24
+  chrome 69.0: 2018-09-04
+  chrome 69.0 for android: 2018-09-04
+  chrome 69.0 for ios: 2018-09-04
+  chrome 70.0: 2018-10-16
+  chrome 70.0 for android: 2018-10-17
+  chrome 70.0 for ios: 2018-10-16
+  chrome 71.0: 2018-12-04
+  chrome 71.0 for android: 2018-12-04
+  chrome 71.0 for ios: 2018-12-04
+  edge 13.0: 2015-09-18
+  edge 14.0: 2016-02-18
+  edge 15.0: 2016-10-07
+  edge 16.0: 2017-09-26
+  edge 17.0: 2018-04-30
+  edge 18.0: 2018-11-13
+  firefox 47.0: 2016-06-07
+  firefox 48.0: 2016-08-02
+  firefox 52.0: 2017-05-07
+  firefox 55.0: 2017-08-08
+  firefox 56.0: 2017-09-28
+  firefox 57.0: 2017-11-14
+  firefox 58.0: 2018-01-23
+  firefox 59.0: 2018-05-13
+  firefox 60.0: 2018-05-09
+  firefox 61.0: 2018-06-25
+  firefox 62.0: 2018-09-05
+  firefox 63.0: 2018-10-23
+  firefox 64.0: 2018-12-11
+  firefox mobile 61.0: 2018-06-25
+  firefox mobile 62.0: 2018-09-05
+  firefox mobile 63.0: 2018-10-13
+  google search application 48.0: 2016-01-20
+  google search application 49.0: 2016-03-02
+  google search application 52.0: 2016-07-27
+  google search application 54.0: 2016-10-19
+  google search application 56.0: 2017-01-25
+  google search application 58.0: 2017-04-19
+  google search application 59.0: 2017-06-05
+  google search application 60.0: 2017-07-25
+  google search application 61.0: 2017-09-05
+  google search application 62.0: 2017-10-17
+  google search application 63.0: 2017-12-06
+  google search application 64.0: 2018-01-24
+  google search application 65.0: 2018-03-06
+  ie 11.0 for desktop: 2013-10-17
+  ie 11.0 for tablet: 2013-10-17
+  mobile safari 8.0: 2014-10-16
+  mobile safari 9.0: 2015-09-30
+  mobile safari 10.0: 2016-09-20
+  mobile safari 11.0: 2017-09-19
+  mobile safari 12.0: 2018-09-17
+  opera 49.0: 2017-11-08
+  opera 51.0: 2018-02-07
+  opera 52.0: 2018-03-22
+  opera 53.0: 2018-05-10
+  opera 54.0: 2018-06-28
+  opera 55.0: 2018-08-16
+  opera 56.0: 2018-09-25
+  safari 9.0: 2015-09-30
+  safari 10.0: 2016-09-20
+  safari 11.0: 2017-09-19
+  safari 12.0: 2018-09-17
+  samsung browser 3.3: 2015-08-01
+  samsung browser 4.0: 2016-08-01
+  samsung browser 4.2: 2016-08-02
+  samsung browser 5.2: 2016-12-17
+  samsung browser 5.4: 2017-05-01
+  samsung browser 6.2: 2017-10-30
+  samsung browser 6.4: 2018-02-19
+  samsung browser 7.0: 2018-04-12
+  samsung browser 7.2: 2018-06-07
+  samsung browser 7.4: 2018-08-19
+  samsung browser 8.2: 2018-12-21
+  mobile safari generic: 
+  safari generic: 
+  mobile safari uiwebview: 
+  chrome: 
+  firefox: 
+  chrome generic: 
+  other: 
+  android webview 4.0: 
+  ie: 
+  firefox generic: 
+  Generic/Android 7.0: 
+  mobile: 
+  Samsung/SM-G532M: 
+  edge: 
+  opera: 
+  chrome generic for android: 
+  aol: 
+  Samsung/SCH: 
+  silk: 
+  Samsung/SM-G531H: 
+  waterfox: 
+  Nokia/Lumia: 
+  puffin: 
+  Microsoft/Windows: 
+  cyberfox: 
+  Generic/Android: 
+  samsung: 
+  opera generic: 
+  ZTE/Blade: 
+  safari: 
+  android browser 4.0: 
+  palemoon: 
+  maxthon: 
+  line: 
+  LG/K-200: 
+  iron: 
+  BLU/Dash: 
+  seamonkey: 
+  M4Tel/M4: 
+  comodo: 
+  Lanix/Ilium: 
+  samsung browser generic: 
+  chromium: 
+  Inco/Minion: 
+  Mozilla/Firefox: 
+  Cherry: 
+  icedragon: 
+  android: 
+  google: 
+  facebook: 
+  rim: 
+  uc: 
+  blackberry: 

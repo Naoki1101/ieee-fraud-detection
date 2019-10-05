@@ -1,0 +1,11 @@
+.DS_Store
+.vscode
+*.csv
+*.pkl
+*.feather
+*.log
+*.png
+
+notebook/*
+data/else/*
+!EDA.ipynb
